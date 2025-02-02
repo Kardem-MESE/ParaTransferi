@@ -123,42 +123,22 @@
       "value": "(//input)[1]",
       "type":"xpath"
     },{
-      "key": "cardNumberInput",
-      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[1]",
-      "type":"xpath"},
-    {
       "key": "cardHolderEdittext",
       "value": "(//input)[2]",
       "type":"xpath"
     },{
-      "key": "cardHolderInput",
-      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[2]",
-      "type":"xpath"},
-    {
       "key": "expiryDateEdittext",
       "value": "(//input)[3]",
       "type":"xpath"
     },{
-      "key": "expiryDateInput",
-      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[3]",
-      "type":"xpath"},
-    {
       "key": "CVVEdittext",
       "value": "(//input)[4]",
       "type":"xpath"
     },{
-      "key": "cvvInput",
-      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[4]",
-      "type":"xpath"},
-    {
       "key": "amountEdittext",
       "value": "(//input)[5]",
       "type":"xpath"
     },{
-      "key": "addMoneyAmountInput",
-      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[5]",
-      "type":"xpath"},
-    {
       "key": "ADDButton",
       "value": "//div[@class='css-146c3p1 r-jwli3a r-1b43r93'][normalize-space()='Add']",
       "type":"xpath"
