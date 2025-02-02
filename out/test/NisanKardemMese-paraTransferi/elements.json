@@ -1,0 +1,182 @@
+{
+  "element": [
+    {
+      "key": "usernameEdittext",
+      "value": "//input[@placeholder='Username']",
+      "type":"xpath"
+    },
+    {
+      "key": "passwordEdittext",
+      "value": "//input[@placeholder='Password']",
+      "type":"xpath"
+    },
+    {
+      "key": "loginButton",
+      "value": "//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div/div[4]/div",
+      "type":"xpath"
+    },{
+      "key": "logoutButton",
+      "value": "//div[@class='css-146c3p1 r-jwli3a r-vw2c0b r-1d4mawv']",
+      "type":"xpath"
+    },{
+      "key": "openMoneyTransferButton",
+      "value": "//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div/div/div[2]",
+      "type":"xpath"
+    },{
+      "key": "challengeNameArea",
+      "value": "//span[normalize-space()='Challenge name:']",
+      "type":"xpath"
+    },{
+      "key": "myAccountArea",
+      "value": "//div[normalize-space()='My account']",
+      "type":"xpath"
+    },{
+      "key": "transactionsArea",
+      "value": "//div[normalize-space()='Transactions']",
+      "type":"xpath"
+    },{
+      "key": "backButton",
+      "value": "//div[@class='css-146c3p1 r-jwli3a r-vw2c0b r-13hce6t']",
+      "type":"xpath"
+    },{
+      "key": "editAccountButton",
+      "value": "//div[contains(text(),'Edit account')]",
+      "type":"xpath"
+    },{
+      "key": "editAccountArea",
+      "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[1]/div[1]",
+      "type":"xpath"
+    },{
+      "key": "accountNameEdittext",
+      "value": "/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/input",
+      "type":"xpath"
+    },{
+      "key": "updateButton",
+      "value": "//div[contains(text(),'UPDATE')]",
+      "type":"xpath"
+    },{
+      "key": "newAccountName",
+      "value": "//div[contains(text(),'Nisan')]",
+      "type":"xpath"
+    },{
+      "key": "disableUpdateButton",
+      "value": "//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1awozwy r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu r-q0mhf2 r-12vffkv']",
+      "type":"xpath"
+    },{
+      "key": "transferMoneyButton",
+      "value": "//div[contains(text(),'Transfer money')]",
+      "type":"xpath"
+    },{
+      "key": "transferMoneyArea",
+      "value": "//div[@class='css-146c3p1 r-ubezar r-vw2c0b']",
+      "type":"xpath"
+    },{
+      "key": "transferMoneyAmountEdittext",
+      "value": "//input[@class='css-11aywtz r-6taxm2 r-1eh6qqt r-z2wwpe r-rs99b7 r-h3s6tt r-1qhn6m8']",
+      "type":"xpath"
+    },{
+      "key": "sendButton",
+      "value": "//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu']",
+      "type":"xpath"
+    },{
+      "key": "sendButton",
+      "value": "//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1loqt21 r-1otgn73 r-1awozwy r-169ebfh r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu']",
+      "type":"xpath"
+    },{
+      "key": "LastTransactionsAmount",
+      "value": "(//div[@class='css-146c3p1 r-1ozpqpt r-yv33h5 r-1b43r93'])[5]",
+      "type":"xpath"
+    },{
+      "key": "disableSendButton",
+      "value": "(//div[@class='css-175oi2r r-1i6wzkk r-lrvibr r-1awozwy r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13qz1uu r-q0mhf2 r-12vffkv'])",
+      "type":"xpath"
+    },{
+      "key": "receiverAccountNarrow",
+      "value": "(//div[@class='css-175oi2r r-1777fci'])[2]",
+      "type":"xpath"
+    },{
+      "key": "receiverAccountTestinium2",
+      "value": "//option[contains(text(), 'Testinium-2')]",
+      "type":"xpath"
+    },{
+      "key": "receiverAccountTestinium3",
+      "value": "//option[contains(text(), 'Testinium-3')]",
+      "type":"xpath"
+    },{
+      "key": "receiverAccountTestinium4",
+      "value": "//option[contains(text(), 'Testinium-4')]",
+      "type":"xpath"
+    },{
+      "key": "receiverAccountTestinium5",
+      "value": "//option[contains(text(), 'Testinium-5')]",
+      "type":"xpath"
+    },{
+      "key": "addMoneyButton",
+      "value": "//div[contains(text(),'Add money')]",
+      "type":"xpath"
+    },{
+      "key": "addMoneyArea",
+      "value": "//div[@class='css-146c3p1 r-ubezar r-vw2c0b']",
+      "type":"xpath"
+    },{
+      "key": "cardNumberEdittext",
+      "value": "(//input)[1]",
+      "type":"xpath"
+    },{
+      "key": "cardNumberInput",
+      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[1]",
+      "type":"xpath"},
+    {
+      "key": "cardHolderEdittext",
+      "value": "(//input)[2]",
+      "type":"xpath"
+    },{
+      "key": "cardHolderInput",
+      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[2]",
+      "type":"xpath"},
+    {
+      "key": "expiryDateEdittext",
+      "value": "(//input)[3]",
+      "type":"xpath"
+    },{
+      "key": "expiryDateInput",
+      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[3]",
+      "type":"xpath"},
+    {
+      "key": "CVVEdittext",
+      "value": "(//input)[4]",
+      "type":"xpath"
+    },{
+      "key": "cvvInput",
+      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[4]",
+      "type":"xpath"},
+    {
+      "key": "amountEdittext",
+      "value": "(//input)[5]",
+      "type":"xpath"
+    },{
+      "key": "addMoneyAmountInput",
+      "value": "(//div[@class='css-175oi2r']/div[@class='css-175oi2r r-13qz1uu']/input)[5]",
+      "type":"xpath"},
+    {
+      "key": "ADDButton",
+      "value": "//div[@class='css-146c3p1 r-jwli3a r-1b43r93'][normalize-space()='Add']",
+      "type":"xpath"
+    },{
+      "key": "requiredMessage",
+      "value": "//div[@class='css-146c3p1 r-yv33h5 r-1jb9un0 r-1enofrn r-14gqq1x']",
+      "type":"xpath"
+    },{
+      "key": "wrongFormatMessage",
+      "value": "//div[@class='css-146c3p1 r-yv33h5 r-1jb9un0 r-1enofrn r-14gqq1x']",
+      "type":"xpath"
+    },{
+      "key": "transactionsPozitifParaYatirma",
+      "value": "(//div[@dir='auto'][normalize-space()='100.00'])[1]",
+      "type":"xpath"
+    }
+
+
+  ]
+}
+

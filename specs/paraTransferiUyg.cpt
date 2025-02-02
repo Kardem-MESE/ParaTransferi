@@ -1,0 +1,134 @@
+# Login ekranını aç
+* Go To "https://catchylabs-webclient.testinium.com/signIn" Address
+* Wait "1" Seconds
+
+# Username <username> ve password <password> doldurup uygulamaya giriş yap
+* Send "usernameEdittext" Value To Element <username>
+* Send "passwordEdittext" Value To Element <password>
+* Click The "loginButton" Element
+* Wait "3" Seconds
+* Check If Element "challengeNameArea" Contains Text "Challenge"
+
+# Logout butonuyla uygulamadan çık
+* Click The "logoutButton" Element
+* Check If Element "loginButton" Contains Text "LOGIN"
+
+# Open Money Transfer butonuyla uygulama ana ekranına giriş yap
+* Click The "openMoneyTransferButton" Element
+* Check If Element "myAccountArea" Contains Text "My account"
+* Check If Element "transactionsArea" Contains Text "Transactions"
+
+# Back butonuyla önceki ekrana döndüğü kontrol edilir
+* Wait "3" Seconds
+* Click The "backButton" Element
+* Check If Element "openMoneyTransferButton" Contains Text "OPEN MONEY TRANSFER"
+
+# Edit Account butonuyla ilgili pencerenin açıldığı kontrol edilir
+* Wait "1" Seconds
+* Click The "editAccountButton" Element
+* Check If Element "editAccountArea" Contains Text "Edit account"
+
+# Account name <accountName> olarak güncellenir update butonuna tıklanır ve ismin değiştiği kontrol edilir
+* Wait "1" Seconds
+* Clear The "accountNameEdittext" Element
+* Wait "1" Seconds
+* Send "accountNameEdittext" Value To Element <accountName>
+* Wait "1" Seconds
+* Click The "updateButton" Element
+* Wait "1" Seconds
+* Check If Element "newAccountName" Contains Text "Nisan"
+
+# Account name <accountName> olarak güncellenir ve update butonuna tıklanamadığı kontrol edilir
+* Wait "1" Seconds
+* Clear for keyboard "accountNameEdittext" Element
+* Wait "1" Seconds
+* Send "accountNameEdittext" Value To Element <accountName>
+* Wait "1" Seconds
+* Visibility The "disableUpdateButton" Element
+
+# Transfer Money butonuyla ilgili pencerenin açıldığı kontrol edilir
+* Wait "1" Seconds
+* Click The "transferMoneyButton" Element
+* Check If Element "transferMoneyArea" Contains Text "Transfer money"
+
+# Amount <amount> girilir ve SEND butonuna tıklanır
+* Send "transferMoneyAmountEdittext" Value To Element <amount>
+* Click The "sendButton" Element
+
+# Transactions alanında amount bilgisinin yanlış olduğu kontrol edilir
+* Check If Element "LastTransactionsAmount" Contains Text "100.00"
+
+# Amount <amount> girilir ve SEND butonuna tıklanamadığı kontrol edilir
+* Send "transferMoneyAmountEdittext" Value To Element <amount>
+* Visibility The "disableSendButton" Element
+
+# Receiver account Testinium-2 seçilir
+* Wait "1" Seconds
+* Click The "receiverAccountNarrow" Element
+* Click The "receiverAccountTestinium2" Element
+* Wait "3" Seconds
+
+# Receiver account Testinium-3 seçilir
+* Wait "1" Seconds
+* Click The "receiverAccountNarrow" Element
+* Click The "receiverAccountTestinium3" Element
+* Wait "3" Seconds
+
+# Receiver account Testinium-4 seçilir
+* Wait "1" Seconds
+* Click The "receiverAccountNarrow" Element
+* Click The "receiverAccountTestinium4" Element
+* Wait "3" Seconds
+
+# Receiver account Testinium-5 seçilir
+* Wait "1" Seconds
+* Click The "receiverAccountNarrow" Element
+* Click The "receiverAccountTestinium5" Element
+* Wait "3" Seconds
+
+# Add Money butonuyla ilgili pencerenin açıldığı kontrol edilir
+* Wait "1" Seconds
+* Click The "addMoneyButton" Element
+* Check If Element "addMoneyArea" Contains Text "Add money"
+
+# Card Number <cardNumber> ile doldurulur
+* Wait "1" Seconds
+* Send "cardNumberInput" Value To Element <cardNumber>
+* Wait "2" Seconds
+
+# Card Holder <cardHolder> ile doldurulur
+* Wait "1" Seconds
+* Send "cardHolderInput" Value To Element <cardHolder>
+* Wait "2" Seconds
+
+# Expiry Date <expiryDate> ile doldurulur
+* Wait "1" Seconds
+* Click The "expiryDateEdittext" Element
+* Wait "1" Seconds
+* Send "expiryDateInput" Value To Element <expiryDate>
+* Wait "2" Seconds
+
+# CVV <CVV> ile doldurulur
+* Wait "1" Seconds
+* Send "cvvInput" Value To Element <CVV>
+* Wait "2" Seconds
+
+# Amount <amount> ile doldurulur
+* Wait "1" Seconds
+* Send "addMoneyAmountInput" Value To Element <amount>
+* Wait "2" Seconds
+
+# Add butonuna tıklanır ve uyarı geldiği kontrol edilir
+* Click The "ADDButton" Element
+* Wait "1" Seconds
+* Visibility The "wrongFormatMessage" Element
+
+# Add butonuna tıklanır ve işlemin yapıldığı kontrol edilir
+* Click The "ADDButton" Element
+* Wait "1" Seconds
+* Visibility The "transactionsPozitifParaYatirma" Element
+
+
+
+
+
